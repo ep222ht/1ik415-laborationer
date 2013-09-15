@@ -18,3 +18,4 @@
 {"ts":1379272608072,"patch":[[{"diffs":[[0,"ref=\"../"],[1,"index.html/"],[0,"#vectorm"]],"start1":2864,"start2":2864,"length1":16,"length2":27}]],"length":4595,"saved":false}
 {"ts":1379272622113,"patch":[[{"diffs":[[0,"dex.html"],[-1,"/"],[0,"#vectorm"]],"start1":2874,"start2":2874,"length1":17,"length2":16}]],"length":4594,"saved":false}
 {"ts":1379273095017,"patch":[[{"diffs":[[0,"./index.html"],[1,"/"],[0,"#vectormoeg\""]],"start1":2870,"start2":2870,"length1":24,"length2":25}]],"length":4595,"saved":false}
+{"ts":1379275604635,"patch":[[{"diffs":[[0,"ft 1.6</a></li>\n"],[1,"            <li><a href=\"../index.html/#videokanin\">Uppgift 1.7</a></li>\n"],[0,"        </ol>\n  "]],"start1":2901,"start2":2901,"length1":32,"length2":105}]],"length":4668,"saved":false}
