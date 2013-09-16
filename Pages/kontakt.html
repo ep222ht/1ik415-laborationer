@@ -12,6 +12,38 @@
             <li><a href="Presentation.html">Presentation</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
-        <h3>Kontakt sidan kommer snart fyllas..</h3>
+        <h3>Kontakta mig genom formuläret här under.</h3>
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+        <fieldset>
+            <legend>Kontaktinformation</legend>
+            <p>
+            <label for="namn">Namn:</label>
+            <input type="text" id="namn" name="namn">
+            </p>
+            <p>
+            <label for="alder">Ålder:</label>
+            <input type="text" id="alder" name="alder">
+            </p>
+            <p>Välj kön
+            <select name="Könsfråga">
+            <option value="Man">Man</option>
+            <option value="Kvinna">Kvinna</option>
+            <option value="Osakert">Osäkert</option>
+            </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Kontaktinformation</legend>
+            <p>Beskriv ditt ärende</p>
+            <textarea>Skriv ditt ärende här.</textarea>
+            <p>Hur vill du kontaktas?</p>
+            <p>
+            <input type="radio" name="Kontakt" value="Post">Post
+            <input type="radio" name="Kontakt" value="E-Mail">E-Mail
+            <input type="radio" name="Kontakt" value="Djungeltrummor">Djungeltrummor
+            </p>
+            <input type="submit" value="Skicka ärende">
+        </fieldset>
+        </form>
     </body>
 </html>
