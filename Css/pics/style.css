@@ -80,7 +80,7 @@ background-color:#25567B;
 #footer {
  clear: both;
  position: relative;
- background-color:#25567B;
+ /*background-color:#25567B;*/
  width:960px;
  z-index: 10;
  height: 3em;
@@ -88,6 +88,10 @@ background-color:#25567B;
  margin:0 auto;
 }
 
+#footer #foto{
+    background:url("Css/pics/compatible_firefox.gif");
+    /*background:url("Css/pics/compatible_chrome.gif");*/
+}
 
 #navigation {
     
@@ -164,9 +168,6 @@ a:link,a:visited{
 }
 a:hover{
     background-color:#25567B;
-}
-thead tfoot tr th td{
-    
 }
 
 
