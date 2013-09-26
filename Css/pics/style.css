@@ -11,7 +11,7 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
+caption,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
@@ -45,10 +45,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 
 #container{
     border-style:groove;
@@ -93,7 +90,7 @@ background-color:#25567B;
 
 
 #navigation {
-
+    
     list-style-type:none;
     width:200px;
     padding:1px;
@@ -101,32 +98,36 @@ background-color:#25567B;
     border-width:5px;
     border-color:#033E6B;
     margin:0px; 
+    padding:0px;
     background-color:#0B61A4;
     float:left;
+    
     display:block;
+    font-weight:bold;
+    
     
 }
 h1 {
     font:Arial;
     font-size:24px;
-    color:#FF9A00;
+    color:#FFFFFF;
     
 }
 h2 {
     font:Arial;
-    color:#FF9A00;
+    color:#FFFFFF;
     font-size:20px;
 }
 h3 {
     font:Arial;
     font-size:18px;
-    color:#FF9A00;
+    color:#FFFFFF;
     
 }
 p{
     font:Arial;
     font-size:14px;
-    color:#FF9A00;
+    color:#FFFFFF;
 }
 article{
     width:500px;
@@ -136,4 +137,36 @@ article{
     padding:5px;
     margin:5px;
 }
+.active{
+    background-color:#A66400;
+}
+#navigation ul li a{
+    display:block;
+    width:200px;
+    border-style:solid;
+    border-width:2;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    
+}
+a:link,a:visited{
+    display:block;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#0B61A4;
+    width:120px;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    
+}
+a:hover{
+    background-color:#25567B;
+}
+thead tfoot tr th td{
+    
+}
+
 
