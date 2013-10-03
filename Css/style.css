@@ -252,10 +252,14 @@ div.img a:link,a:visited{
 }
 
 #homea a{background-position: 0 -48px}
-#homea:hover a{background-position: 0 0}
+#homea a:hover {background-position: 0 0}
 #laboa a{background-position: 0 -144px}
-#laboa:hover a{background-position: 0 -96px}
+#laboa a:hover {background-position: 0 -96px}
 #presenta a{background-position: 0 -240px}
-#presenta:hover a{background-position: 0 -192px}
+#presenta a:hover {background-position: 0 -192px}
 #kontakta a{background-position: 0 -336px}
-#kontakta:hover a{background-position: 0 -288px}
+#kontakta a:hover {background-position: 0 -288px}
+/*#homea a:active {background-position: 0 0}
+#laboa a:active {background-position: 0 -96px}
+#presenta a:active {background-position: 0 -192px}
+#kontakta a:active {background-position: 0 -288px}*/
