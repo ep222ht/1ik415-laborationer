@@ -1,0 +1,261 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	}
+	html, body, #container { height: 100%; }
+    body > #container { height: auto; min-height: 100%; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+#container{
+    border-style:groove;
+    border-width:5px;
+    border-color:#033E6B;
+    width:960px;
+    padding:5px;
+    margin:0 auto ;
+    background-color:#66A3D2;
+}
+
+#header{
+    width:960px;
+    padding:3px;
+    margin:0px; 
+    background-color:#25567B;
+    text-align:center;
+}
+
+
+
+#context{
+    padding-bottom: 3em;
+    background-color:#3F92D2;
+    border-style:groove;
+    border-width:5px;
+    border-color:#033E6B;
+    width:730px;
+    margin: 0 auto;
+    padding:0px;
+    float:right;
+}
+#footer {
+    
+    clear: both;
+    position: relative;
+    text-align: center;
+    font-weight: normal;
+    background-color:#25567B;
+    width:960px;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+    margin:0 auto;
+}
+
+
+
+#navigation {
+    
+    list-style-type:none;
+    width:200px;
+    padding:1px;
+    border-style:groove;
+    border-width:5px;
+    border-color:#033E6B;
+    margin:0px; 
+    padding:0px;
+    background-color:#0B61A4;
+    float:left;
+    
+    display:block;
+    font-weight:bold;
+    
+    
+}
+/*#sido{
+    
+    list-style-type:none;
+    
+    width:50px;
+    padding:1px;
+    border-style:none;
+    border-width:0;
+    border-color:#033E6B;
+    margin:0; 
+    padding:1px;
+    background-color:#0B61A4;
+    float:left;
+    margin-top:-5px;
+    display:block;
+    font-weight:bold;
+}*/
+h1 {
+    font:Arial;
+    font-size:24px;
+    color:#FFFFFF;
+    
+}
+h2 {
+    font:Arial;
+    color:#FFFFFF;
+    font-size:20px;
+}
+h3 {
+    font:Arial;
+    font-size:18px;
+    color:#FFFFFF;
+    
+}
+p{
+    font:Arial;
+    font-size:14px;
+    color:#FFFFFF;
+}
+article{
+    width:500px;
+    border-style:groove;
+    border-width:5px;
+    border-color:#033E6B;
+    padding:5px;
+    margin:5px;
+}
+
+
+.active{
+    background-color:#A66400;
+}
+#navigation ul li a{
+    display:block;
+    width:200px;
+    border-style:solid;
+    border-width:2;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    
+}
+#navigation a:link,a:visited{
+    display:block;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#0B61A4;
+    width:120px;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    
+}
+a:hover{
+    background-color:#25567B;
+}
+
+
+/*div.img
+{
+  margin: 5px;
+  border: 1px solid #0000ff;
+  height: 50px;
+  width: auto;
+  float: left;
+  text-align: center;
+}	
+div.img img
+{
+  display: inline;
+ 
+  border: 0 solid #ffffff;
+}
+div.img a:hover img {border: 1px solid #0000ff;}
+.desc
+{
+  text-align: center;
+  font-weight: normal;
+  width: 50px;
+  margin: 2px;
+}
+.desc2
+{
+  text-align: center;
+  font-weight: normal;
+  width: 50px;
+  margin: 2px;
+}
+div.img a:link,a:visited{
+    display:block;
+    font-weight:bold;
+    color:#FFFFFF;
+    width:50px;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+}*/
+
+#meny a
+{
+    position:relative;
+}
+#meny a
+{
+    width:70px;
+    height:24px;
+    display:block;
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
+}
+#meny li 
+{
+    
+    float:left;
+    list-style-type:none;
+    margin-right:10px;
+}
+
+#homea a{background-position: 0 -48px}
+#homea:hover a{background-position: 0 0}
+#laboa a{background-position: 0 -144px}
+#laboa:hover a{background-position: 0 -96px}
+#presenta a{background-position: 0 -240px}
+#presenta:hover a{background-position: 0 -192px}
+#kontakta a{background-position: 0 -336px}
+#kontakta:hover a{background-position: 0 -288px}
