@@ -57,17 +57,14 @@ video {
     overflow:hidden;
 }
 
-#header{
+/*#header{
     width:960px;
     padding:auto;
     height:auto;
     margin:auto; 
     background-color:#EBDAC0;
     text-align:center;
-}
-
-
-
+}*/
 #context{
     padding-bottom: 3em;
     background-color:#EBDAC0;
@@ -78,10 +75,9 @@ video {
     margin: 0 auto;
     padding:0px;
     float:right;
-    
 }
-#footer {
-    
+#footer 
+{
     clear: both;
     position: relative;
     text-align: center;
@@ -94,10 +90,7 @@ video {
     margin:0 auto;
 }
 
-
-
 #navigation {
-    
     list-style-type:none;
     width:200px;
     padding:1px;
@@ -110,26 +103,8 @@ video {
     
     display:block;
     font-weight:bold;
-    
-    
 }
-/*#sido{
-    
-    list-style-type:none;
-    
-    width:50px;
-    padding:1px;
-    border-style:none;
-    border-width:0;
-    border-color:#033E6B;
-    margin:0; 
-    padding:1px;
-    background-color:#0B61A4;
-    float:left;
-    margin-top:-5px;
-    display:block;
-    font-weight:bold;
-}*/
+
 h1 {
     font:Arial;
     font-size:24px;
@@ -160,8 +135,6 @@ article{
     padding:5px;
     margin:5px;
 }
-
-
 .active{
     background-color:#EBDAC0;
 }
@@ -191,47 +164,6 @@ article{
 a:hover{
     background-color:#88998D;
 }
-
-
-/*div.img
-{
-  margin: 5px;
-  border: 1px solid #0000ff;
-  height: 50px;
-  width: auto;
-  float: left;
-  text-align: center;
-}	
-div.img img
-{
-  display: inline;
- 
-  border: 0 solid #ffffff;
-}
-div.img a:hover img {border: 1px solid #0000ff;}
-.desc
-{
-  text-align: center;
-  font-weight: normal;
-  width: 50px;
-  margin: 2px;
-}
-.desc2
-{
-  text-align: center;
-  font-weight: normal;
-  width: 50px;
-  margin: 2px;
-}
-div.img a:link,a:visited{
-    display:block;
-    font-weight:bold;
-    color:#FFFFFF;
-    width:50px;
-    text-align:center;
-    padding:4px;
-    text-decoration:none;
-}*/
 
 #meny a
 {
