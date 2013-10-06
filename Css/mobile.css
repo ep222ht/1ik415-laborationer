@@ -1,58 +1,57 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-label,
-caption,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	}
-	html, body, #container { height: 100%; }
-    body > #container { height: auto; min-height: 100%; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
 }
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+button input select textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+}
+legend {
+    border: 0; /* 1 */
+    padding: 0; /* 2 */
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+html {
+    font-family: sans-serif; 
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
+}
+
 body {
-	line-height: 1;
+    margin: 0;
 }
-ol, ul {
-	list-style: none;
+video {
+    display: inline-block;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
-
 #container{
     border-style:inset;
     border-width:3px;
     border-color:#88998D;
     width:960px;
-    padding:5px;
+    padding:0 auto;
     margin:0 auto ;
     background-color:#EBDAC0;
     overflow:hidden;
@@ -60,8 +59,9 @@ q:before, q:after {
 
 #header{
     width:960px;
-    padding:0 auto;
-    margin:0 auto; 
+    padding:auto;
+    height:auto;
+    margin:auto; 
     background-color:#EBDAC0;
     text-align:center;
 }
@@ -76,7 +76,7 @@ q:before, q:after {
     border-color:#88998D;
     width:730px;
     margin: 0 auto;
-    padding:0 auto;
+    padding:0px;
     float:right;
     
 }
@@ -261,7 +261,3 @@ div.img a:link,a:visited{
 #presenta a:hover {background-position: 0 -192px}
 #kontakta a{background-position: 0 -336px}
 #kontakta a:hover {background-position: 0 -288px}
-/*#homea a:active {background-position: 0 0}
-#laboa a:active {background-position: 0 -96px}
-#presenta a:active {background-position: 0 -192px}
-#kontakta a:active {background-position: 0 -288px}*/
