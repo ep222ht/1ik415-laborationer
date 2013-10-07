@@ -46,6 +46,23 @@ body {
 video {
     display: inline-block;
 }
+/* Portrait */
+/*@media screen and (orientation:portrait)*/
+/*{*/
+/*#topImage*/
+/*{*/
+/*display: block;*/
+/*margin: 0 auto 10px auto;*/
+/*}*/
+/*}*/
+/* Landscape*/
+/*@media screen and (orientation:landscape)*/
+/*{*/
+/*#topImage*/
+/*{*/
+/*float: left;*/
+/*}*/
+/*} */
 #container{
     border-style:inset;
     border-width:3px;
@@ -93,11 +110,11 @@ video {
 #navigation {
     list-style-type:none;
     width:200px;
-    padding:1px;
+    padding:0 auto;
     border-style:inset;
     border-width:3px;
     border-color:#88998D;
-    margin:0; 
+    margin:0 auto; 
     background-color:#EBDAC0;
     float:left;
     
