@@ -1,13 +1,6 @@
 article,
-aside,
-details,
-figcaption,
-figure,
 footer,
 header,
-hgroup,
-main,
-nav,
 section,
 summary {
     display: block;
@@ -45,6 +38,8 @@ body {
 }
 video {
     display: inline-block;
+    width:280px;
+    height:auto;
 }
 /* Portrait */
 /*@media screen and (orientation:portrait)*/
@@ -65,13 +60,16 @@ video {
 /*} */
 #container{
     border-style:inset;
-    border-width:3px;
+    border-width:2px;
     border-color:#88998D;
-    width:960px;
+    width:320px;
     padding:0 auto;
     margin:0 auto ;
-    background-color:#EBDAC0;
+    background-color:#FF0000;
     overflow:hidden;
+}
+#header img{
+    display:none;
 }
 
 /*#header{
@@ -83,15 +81,16 @@ video {
     text-align:center;
 }*/
 #context{
+    clear:both;
     padding-bottom: 3em;
-    background-color:#EBDAC0;
+    background-color:#FF0000;
     border-style:inset;
     border-width:3px;
-    border-color:#88998D;
-    width:730px;
+    border-color:#FFFFFF;
+    width:300px;
     margin: 0 auto;
     padding:0px;
-    float:right;
+    float:center;
 }
 #footer 
 {
@@ -100,7 +99,7 @@ video {
     text-align: center;
     font-weight: normal;
     background-color:#FFFFFF;
-    width:960px;
+    width:300px;
     z-index: 10;
     height: 3em;
     margin-top: -3em;
@@ -111,12 +110,12 @@ video {
     list-style-type:none;
     width:200px;
     padding:0 auto;
-    border-style:inset;
-    border-width:3px;
-    border-color:#88998D;
-    margin:0 auto; 
-    background-color:#EBDAC0;
-    float:left;
+    /*border-style:inset;*/
+    /*border-width:3px;*/
+    /*border-color:#FFFFFF;*/
+    margin-left:5px; 
+    background-color:#FF0000;
+    float:center;
     
     display:block;
     font-weight:bold;
@@ -130,48 +129,48 @@ h1 {
 }
 h2 {
     font:Arial;
-    color:#606069;
+    color:#FFFFFF;
     font-size:20px;
 }
 h3 {
     font:Arial;
     font-size:18px;
-    color:#606069;
+    color:#FFFFFF;
     
 }
 p{
     font:Arial;
     font-size:14px;
-    color:#606069;
+    color:#FFFFFF;
 }
 article{
-    width:500px;
+    width:280px;
     border-style:inset;
-    border-width:3px;
-    border-color:#88998D;
+    border-width:1px;
+    border-color:#FFFFFF;
     padding:5px;
     margin:5px;
 }
 .active{
-    background-color:#EBDAC0;
+    background-color:#FF0000;
 }
 #navigation ul li a{
     display:block;
     width:200px;
     border-style:solid;
     border-width:1px;
-    border-color:#88998D;
+    border-color:#FFFFFF;
     list-style-type:none;
     margin:0;
-    padding-left:5px;
+    padding-left:2px;
     text-align:center;
     
 }
 #navigation a:link,a:visited{
     display:block;
     font-weight:bold;
-    color:#606069;
-    background-color:#EBDAC0;
+    color:#FFFFFF;
+    background-color:#FF0000;
     width:190px;
     text-align:center;
     padding:4px;
