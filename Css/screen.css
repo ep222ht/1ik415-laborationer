@@ -61,7 +61,7 @@ video {
 #container{
     border-style:inset;
     border-width:2px;
-    border-color:#343530;
+    border-color:#FFFFFF;
     width:320px;
     padding:0 auto;
     margin:0 auto ;
@@ -84,7 +84,7 @@ video {
 #context{
     clear:both;
     padding-bottom: 3em;
-    background-color:#343530;
+    background-color:#FFFFFF;
     border-style:inset;
     border-width:3px;
     border-color:#FFFFFF;
@@ -100,7 +100,7 @@ video {
     position: relative;
     text-align: center;
     font-weight: normal;
-    background-color:#343530;
+    background-color:#FFFFFF;
     width:300px;
     z-index: 10;
     height: 3em;
@@ -117,7 +117,7 @@ video {
     /*border-width:3px;*/
     /*border-color:#FFFFFF;*/
     margin-left:5px; 
-    background-color:#343530;
+    background-color:#FFFFFF;
     float:center;
     max-width: 96%;
     display:block;
@@ -127,24 +127,24 @@ video {
 h1 {
     font:Arial;
     font-size:24px;
-    color:#606069;
+    color:#FF0000;
     
 }
 h2 {
     font:Arial;
-    color:#FFFFFF;
+    color:#FF0000;
     font-size:20px;
 }
 h3 {
     font:Arial;
     font-size:18px;
-    color:#FFFFFF;
+    color:#FF0000;
     
 }
 p{
     font:Arial;
     font-size:14px;
-    color:#FFFFFF;
+    color:#FF0000;
 }
 article{
     width:280px;
@@ -157,7 +157,7 @@ article{
     max-width: 96%;
 }
 .active{
-    background-color:#343530;
+    background-color:#FFFFFF;
 }
 #navigation ul li a{
     display:block;
@@ -175,8 +175,8 @@ article{
 #navigation a:link,a:visited{
     display:block;
     font-weight:bold;
-    color:#FFFFFF;
-    background-color:#343530;
+    color:#FF0000;
+    background-color:#FFFFFF;
     width:190px;
     text-align:center;
     padding:4px;
