@@ -61,12 +61,13 @@ video {
 #container{
     border-style:inset;
     border-width:2px;
-    border-color:#88998D;
+    border-color:#343530;
     width:320px;
     padding:0 auto;
     margin:0 auto ;
-    background-color:#FF0000;
+    background-color:#343530;
     overflow:hidden;
+    max-width: 96%;
 }
 #header img{
     display:none;
@@ -83,7 +84,7 @@ video {
 #context{
     clear:both;
     padding-bottom: 3em;
-    background-color:#FF0000;
+    background-color:#343530;
     border-style:inset;
     border-width:3px;
     border-color:#FFFFFF;
@@ -91,6 +92,7 @@ video {
     margin: 0 auto;
     padding:0px;
     float:center;
+    max-width: 96%;
 }
 #footer 
 {
@@ -98,12 +100,13 @@ video {
     position: relative;
     text-align: center;
     font-weight: normal;
-    background-color:#FFFFFF;
+    background-color:#343530;
     width:300px;
     z-index: 10;
     height: 3em;
     margin-top: -3em;
     margin:0 auto;
+    max-width: 96%;
 }
 
 #navigation {
@@ -114,9 +117,9 @@ video {
     /*border-width:3px;*/
     /*border-color:#FFFFFF;*/
     margin-left:5px; 
-    background-color:#FF0000;
+    background-color:#343530;
     float:center;
-    
+    max-width: 96%;
     display:block;
     font-weight:bold;
 }
@@ -147,12 +150,14 @@ article{
     width:280px;
     border-style:inset;
     border-width:1px;
-    border-color:#FFFFFF;
+    border-color:#343530;
+    background-color:#242422;
     padding:5px;
     margin:5px;
+    max-width: 96%;
 }
 .active{
-    background-color:#FF0000;
+    background-color:#343530;
 }
 #navigation ul li a{
     display:block;
@@ -164,18 +169,19 @@ article{
     margin:0;
     padding-left:2px;
     text-align:center;
+    max-width: 96%;
     
 }
 #navigation a:link,a:visited{
     display:block;
     font-weight:bold;
     color:#FFFFFF;
-    background-color:#FF0000;
+    background-color:#343530;
     width:190px;
     text-align:center;
     padding:4px;
     text-decoration:none;
-    
+    max-width: 96%;
 }
 a:hover{
     background-color:#88998D;
