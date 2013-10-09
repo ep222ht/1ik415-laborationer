@@ -90,9 +90,17 @@ video {
     float:center;
     max-width: 96%;
 }
-.presfoto {
-    width:auto;
-    height:auto;
+/*.presfoto {*/
+/*    width:100px;*/
+/*    height:300px;*/
+/*}*/
+#context img{
+    width:100px;
+    height:350px;
+}
+#context ul ol li{
+    list-style:none;
+    display:block;
 }
 #footer 
 {
