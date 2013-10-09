@@ -54,7 +54,7 @@ q:before, q:after {
     width:960px;
     padding:5px;
     margin:0 auto ;
-    background-color:#EBDAC0;
+    background-color:#FFFFFF;
     overflow:hidden;
 }
 
@@ -62,15 +62,21 @@ q:before, q:after {
     width:960px;
     padding:0 auto;
     margin:0 auto; 
-    background-color:#EBDAC0;
+    background-color:#FFFFFF;
     text-align:center;
 }
-
+#header img{
+    display:block center;
+    width:200px;
+    height:200px;
+    
+    /*margin-left:200px;*/
+}
 
 
 #context{
     padding-bottom: 3em;
-    background-color:#EBDAC0;
+    background-color:#FFFFFF;
     border-style:inset;
     border-width:3px;
     border-color:#88998D;
@@ -99,13 +105,13 @@ q:before, q:after {
 #navigation {
     
     list-style-type:none;
-    width:200px;
+    width:180px;
     padding:1px;
     border-style:inset;
     border-width:3px;
     border-color:#88998D;
     margin:0; 
-    background-color:#EBDAC0;
+    background-color:#FFFFFF;
     float:left;
     
     display:block;
@@ -113,61 +119,47 @@ q:before, q:after {
     
     
 }
-/*#sido{
-    
-    list-style-type:none;
-    
-    width:50px;
-    padding:1px;
-    border-style:none;
-    border-width:0;
-    border-color:#033E6B;
-    margin:0; 
-    padding:1px;
-    background-color:#0B61A4;
-    float:left;
-    margin-top:-5px;
-    display:block;
-    font-weight:bold;
-}*/
+
 h1 {
     font:Arial;
     font-size:24px;
-    color:#606069;
+    color:#000000;
     
 }
 h2 {
     font:Arial;
-    color:#606069;
+    color:#000000;
     font-size:20px;
 }
 h3 {
     font:Arial;
     font-size:18px;
-    color:#606069;
+    color:#000000;
     
 }
 p{
     font:Arial;
     font-size:14px;
-    color:#606069;
+    color:#000000;
 }
 article{
     width:500px;
-    border-style:inset;
-    border-width:3px;
-    border-color:#88998D;
+    /*border-style:inset;*/
+    /*border-width:3px;*/
+    /*border-color:#FFFFFF;*/
+    box-shadow: 10px 10px 5px #888888;
     padding:5px;
     margin:5px;
+    margin-bottom:20px;
 }
 
 
 .active{
-    background-color:#EBDAC0;
+    background-color:#FFFFFF;
 }
 #navigation ul li a{
     display:block;
-    width:200px;
+    width:180px;
     border-style:solid;
     border-width:1px;
     border-color:#88998D;
@@ -180,9 +172,9 @@ article{
 #navigation a:link,a:visited{
     display:block;
     font-weight:bold;
-    color:#606069;
-    background-color:#EBDAC0;
-    width:190px;
+    color:#000000;
+    background-color:#FFFFFF;
+    width:170px;
     text-align:center;
     padding:4px;
     text-decoration:none;
