@@ -65,32 +65,31 @@ video {
     width:320px;
     padding:0 auto;
     margin:0 auto ;
-    background-color:#343530;
+    background-color:#FFFFFF;
     overflow:hidden;
     max-width: 96%;
 }
 #header img{
-    display:none;
+    display:block center;
+    width:100px;
+    height:100px;
 }
 
-/*#header{
-    width:960px;
+#header{
+    width:300px;
     padding:auto;
     height:auto;
     margin:auto; 
-    background-color:#EBDAC0;
+    background-color:#FFFFFF;
     text-align:center;
-}*/
+}
 #context{
     clear:both;
     padding-bottom: 3em;
     background-color:#FFFFFF;
-    border-style:inset;
-    border-width:3px;
-    border-color:#FFFFFF;
     width:300px;
     margin: 0 auto;
-    padding:0px;
+    padding:0;
     float:center;
     max-width: 96%;
 }
@@ -111,75 +110,75 @@ video {
 
 #navigation {
     list-style-type:none;
-    width:200px;
+    width:300px;
     padding:0 auto;
-    /*border-style:inset;*/
-    /*border-width:3px;*/
-    /*border-color:#FFFFFF;*/
     margin-left:5px; 
     background-color:#FFFFFF;
     float:center;
     max-width: 96%;
-    display:block;
-    font-weight:bold;
+    /*display:block;*/
+    
 }
 
 h1 {
     font:Arial;
     font-size:24px;
-    color:#FF0000;
+    color:#000000;
     
 }
 h2 {
     font:Arial;
-    color:#FF0000;
+    color:#000000;
     font-size:20px;
+    line-height:1.5em;
 }
 h3 {
     font:Arial;
     font-size:18px;
-    color:#FF0000;
-    
+    color:#000000;
+    line-height:1.5em;
 }
 p{
     font:Arial;
     font-size:14px;
-    color:#FF0000;
+    color:#000000;
+    line-height:1.5em;
 }
 article{
     width:280px;
-    border-style:inset;
-    border-width:1px;
-    border-color:#343530;
-    background-color:#242422;
+    box-shadow: 10px 10px 5px #888888;
+    background-color:#FFFFFF;
     padding:5px;
     margin:5px;
     max-width: 96%;
+    line-height:1.5em;
 }
 .active{
     background-color:#FFFFFF;
 }
 #navigation ul li a{
-    display:block;
-    width:200px;
+    display:inline;
+    width:300px;
     border-style:solid;
     border-width:1px;
-    border-color:#FFFFFF;
+    border-color:#000000;
     list-style-type:none;
     margin:0;
     padding-left:2px;
-    text-align:center;
+    text-align:right;
     max-width: 96%;
     
 }
 #navigation a:link,a:visited{
-    display:block;
-    font-weight:bold;
-    color:#FF0000;
+    display:inline;
+    font-size:10px;
+    font-style:italic;
+    color:#000000;
     background-color:#FFFFFF;
-    width:190px;
-    text-align:center;
-    padding:4px;
+    width:300px;
+    text-align:right;
+    padding:3px;
+    padding-right:19px;
     text-decoration:none;
     max-width: 96%;
 }
@@ -204,7 +203,7 @@ a:hover{
     
     float:left;
     list-style-type:none;
-    margin-right:10px;
+    margin-right:1px;
 }
 
 #homea a{background-position: 0 -48px}
