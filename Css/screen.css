@@ -68,23 +68,34 @@ video {
     display:block;
     max-width: 96%;
 }
-/*#header img{*/
-/*    display:block center;*/
-/*    width:100px;*/
-/*    height:100px;*/
-/*}*/
-#header .loggan{
-    display:block;
+#header img{
+    display:block center;
     width:100px;
     height:100px;
 }
+/*#header .loggan{*/
+/*    display:block;*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*}*/
 
 #header{
     background-image:url(../Pics/Logotry3.png);
     background-repeat:no-repeat;
-    background-size:46%;
-    height:100%;
+    background-size:35%;
+    background-position:center;
+    height:100px;
     max-width:100%;
+    width:320px;
+}
+#header a:hover{
+    background-image:url(../Pics/Logotry3.png);
+    background-repeat:no-repeat;
+    background-size:35%;
+    background-position:center;
+    height:100px;
+    max-width:100%;
+    width:320px;
 }
 #context{
     clear:both;
@@ -169,7 +180,10 @@ article{
     line-height:1.5em;
 }
 .active{
-    background-color:#FFFFFF;
+    background:url("../Pics/Logotry3.png");
+    background-color:#1b1b1b;
+    background-repeat:no-repeat;
+    background-position:center; 
 }
 #navigation ul li a{
     display:inline;

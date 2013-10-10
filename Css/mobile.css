@@ -68,16 +68,16 @@ video {
     display:block;
     max-width: 96%;
 }
-/*#header img{*/
-/*    display:block center;*/
-/*    width:100px;*/
-/*    height:100px;*/
-/*}*/
-#header .loggan{
-    display:block;
+#header img{
+    display:block center;
     width:100px;
     height:100px;
 }
+/*#header .loggan{*/
+/*    display:block;*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*}*/
 
 #header{
     background-image:url(../Pics/Logotry3.png);
@@ -137,7 +137,8 @@ video {
 #navigation {
     list-style-type:none;
     width:300px;
-    padding:0 auto;
+    
+    padding:10px;
     margin-left:5px; 
     background-color:#FFFFFF;
     float:center;
@@ -187,13 +188,10 @@ article{
 }
 #navigation ul li a{
     display:inline;
-    width:300px;
-    height:30px;
     border-style:solid;
     border-width:1px;
     border-color:#000000;
     list-style-type:none;
-    margin:0;
     padding-left:2px;
     text-align:right;
     max-width: 96%;
