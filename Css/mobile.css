@@ -137,13 +137,12 @@ video {
 #navigation {
     list-style-type:none;
     width:300px;
-    
-    padding:10px;
-    margin-left:5px; 
+    margin-left: 20px;
+    padding:10px; 
     background-color:#FFFFFF;
     float:center;
     max-width: 96%;
-    /*display:block;*/
+    display:block;
     
 }
 

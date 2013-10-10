@@ -1,0 +1,30 @@
+#header, #navigation, #footer, .noprint {
+    display: none;
+    }
+
+#container, #context {
+    width: 100%; 
+    margin: 0; 
+    float: none;
+    border:none;
+}
+video, img{
+    display:none;
+}
+
+a:link, a:visited {
+    color: #781351;
+    }
+    
+#container a:after
+{
+content: " ("attr(href) ")";
+}
+table{
+    width: 100%; 
+    margin: 0; 
+    float: none;
+}
+ul li {
+    display: inline;
+}
