@@ -60,6 +60,7 @@ q:before, q:after {
 
 #header{
     width:960px;
+    height:200px;
     padding:0 auto;
     margin:0 auto; 
     background-color:#FFFFFF;
@@ -107,18 +108,12 @@ q:before, q:after {
     list-style-type:none;
     width:180px;
     padding:1px;
-    border-style:inset;
-    border-width:3px;
-    border-color:#88998D;
     margin:0; 
     background-color:#FFFFFF;
     float:left;
-    
     display:block;
     font-weight:bold;
-    
-    
-}
+    }
 
 h1 {
     font:Arial;
@@ -144,9 +139,6 @@ p{
 }
 article{
     width:500px;
-    /*border-style:inset;*/
-    /*border-width:3px;*/
-    /*border-color:#FFFFFF;*/
     box-shadow: 10px 10px 5px #888888;
     padding:5px;
     margin:5px;
@@ -155,7 +147,10 @@ article{
 
 
 .active{
-    background-color:#FFFFFF;
+    background:url("../Pics/Logotry.png");
+    background-color:#1b1b1b;
+    background-repeat:no-repeat;
+    background-position:center; 
 }
 #navigation ul li a{
     display:block;
@@ -178,11 +173,10 @@ article{
     text-align:center;
     padding:4px;
     text-decoration:none;
-    
 }
-a:hover{
-    background-color:#88998D;
-}
+/*a:hover{*/
+/*    background-color:#88998D;*/
+/*}*/
 
 
 /*div.img

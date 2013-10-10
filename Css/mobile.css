@@ -64,21 +64,38 @@ video {
     margin:0 auto ;
     background-color:#FFFFFF;
     overflow:hidden;
+    position:relative;
+    display:block;
     max-width: 96%;
 }
-#header img{
-    display:block center;
+/*#header img{*/
+/*    display:block center;*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*}*/
+#header .loggan{
+    display:block;
     width:100px;
     height:100px;
 }
 
 #header{
-    width:300px;
-    padding:auto;
-    height:auto;
-    margin:auto; 
-    background-color:#FFFFFF;
-    text-align:center;
+    background-image:url(../Pics/Logotry3.png);
+    background-repeat:no-repeat;
+    background-size:35%;
+    background-position:center;
+    height:100px;
+    max-width:100%;
+    width:320px;
+}
+#header a:hover{
+    background-image:url(../Pics/Logotry3.png);
+    background-repeat:no-repeat;
+    background-size:35%;
+    background-position:center;
+    height:100px;
+    max-width:100%;
+    width:320px;
 }
 #context{
     clear:both;
@@ -94,7 +111,7 @@ video {
 /*    width:100px;*/
 /*    height:300px;*/
 /*}*/
-#context img{
+#WWpto {
     width:100px;
     height:350px;
 }
@@ -163,7 +180,10 @@ article{
     line-height:1.5em;
 }
 .active{
-    background-color:#FFFFFF;
+    background:url("../Pics/Logotry3.png");
+    background-color:#1b1b1b;
+    background-repeat:no-repeat;
+    background-position:center; 
 }
 #navigation ul li a{
     display:inline;
@@ -192,9 +212,9 @@ article{
     text-decoration:none;
     max-width: 96%;
 }
-a:hover{
-    background-color:#88998D;
-}
+/*a:hover{*/
+/*    background-color:#88998D;*/
+/*}*/
 
 #meny a
 {

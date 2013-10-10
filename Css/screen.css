@@ -59,29 +59,32 @@ video {
 /*}*/
 /*} */
 #container{
-    border-style:inset;
-    border-width:2px;
-    border-color:#FFFFFF;
     width:320px;
     padding:0 auto;
     margin:0 auto ;
     background-color:#FFFFFF;
     overflow:hidden;
+    position:relative;
+    display:block;
     max-width: 96%;
 }
-#header img{
-    display:block center;
+/*#header img{*/
+/*    display:block center;*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*}*/
+#header .loggan{
+    display:block;
     width:100px;
     height:100px;
 }
 
 #header{
-    width:300px;
-    padding:auto;
-    height:auto;
-    margin:auto; 
-    background-color:#FFFFFF;
-    text-align:center;
+    background-image:url(../Pics/Logotry3.png);
+    background-repeat:no-repeat;
+    background-size:46%;
+    height:100%;
+    max-width:100%;
 }
 #context{
     clear:both;
@@ -92,6 +95,18 @@ video {
     padding:0;
     float:center;
     max-width: 96%;
+}
+/*.presfoto {*/
+/*    width:100px;*/
+/*    height:300px;*/
+/*}*/
+#WWpto {
+    width:100px;
+    height:350px;
+}
+#context ul ol li{
+    list-style:none;
+    display:block;
 }
 #footer 
 {
@@ -159,6 +174,7 @@ article{
 #navigation ul li a{
     display:inline;
     width:300px;
+    height:30px;
     border-style:solid;
     border-width:1px;
     border-color:#000000;
@@ -177,14 +193,14 @@ article{
     background-color:#FFFFFF;
     width:300px;
     text-align:right;
-    padding:3px;
-    padding-right:19px;
+    padding:2px;
+    padding-right:20px;
     text-decoration:none;
     max-width: 96%;
 }
-a:hover{
-    background-color:#88998D;
-}
+/*a:hover{*/
+/*    background-color:#88998D;*/
+/*}*/
 
 #meny a
 {
