@@ -70,8 +70,6 @@ q:before, q:after {
     display:block center;
     width:200px;
     height:200px;
-    
-    /*margin-left:200px;*/
 }
 
 
@@ -114,7 +112,10 @@ q:before, q:after {
     display:block;
     font-weight:bold;
     }
-
+#WWpto {
+    width:100px;
+    height:350px;
+}
 h1 {
     font:Arial;
     font-size:24px;
@@ -125,24 +126,27 @@ h2 {
     font:Arial;
     color:#000000;
     font-size:20px;
+    line-height:1.5em;
 }
 h3 {
     font:Arial;
     font-size:18px;
     color:#000000;
-    
+    line-height:1.5em;
 }
 p{
     font:Arial;
     font-size:14px;
     color:#000000;
+    line-height:1.5em;
 }
 article{
-    width:500px;
+    width:700px;
     box-shadow: 10px 10px 5px #888888;
     padding:5px;
     margin:5px;
     margin-bottom:20px;
+    line-height:1.5em;
 }
 
 
@@ -179,45 +183,6 @@ article{
 /*}*/
 
 
-/*div.img
-{
-  margin: 5px;
-  border: 1px solid #0000ff;
-  height: 50px;
-  width: auto;
-  float: left;
-  text-align: center;
-}	
-div.img img
-{
-  display: inline;
- 
-  border: 0 solid #ffffff;
-}
-div.img a:hover img {border: 1px solid #0000ff;}
-.desc
-{
-  text-align: center;
-  font-weight: normal;
-  width: 50px;
-  margin: 2px;
-}
-.desc2
-{
-  text-align: center;
-  font-weight: normal;
-  width: 50px;
-  margin: 2px;
-}
-div.img a:link,a:visited{
-    display:block;
-    font-weight:bold;
-    color:#FFFFFF;
-    width:50px;
-    text-align:center;
-    padding:4px;
-    text-decoration:none;
-}*/
 
 #meny a
 {
@@ -247,7 +212,3 @@ div.img a:link,a:visited{
 #presenta a:hover {background-position: 0 -192px}
 #kontakta a{background-position: 0 -336px}
 #kontakta a:hover {background-position: 0 -288px}
-/*#homea a:active {background-position: 0 0}
-#laboa a:active {background-position: 0 -96px}
-#presenta a:active {background-position: 0 -192px}
-#kontakta a:active {background-position: 0 -288px}*/

@@ -1,10 +1,5 @@
-article,
-footer,
-header,
-section,
-summary {
-    display: block;
-}
+/*DUPLICERAD KOD RENSA!!*/
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -18,10 +13,7 @@ button input select textarea {
     font-size: 100%; /* 2 */
     margin: 0; /* 3 */
 }
-legend {
-    border: 0; /* 1 */
-    padding: 0; /* 2 */
-}
+
 fieldset {
     border: 1px solid #c0c0c0;
     margin: 0 2px;
@@ -41,31 +33,15 @@ video {
     width:280px;
     height:auto;
 }
-/* Portrait */
-/*@media screen and (orientation:portrait)*/
-/*{*/
-/*#topImage*/
-/*{*/
-/*display: block;*/
-/*margin: 0 auto 10px auto;*/
-/*}*/
-/*}*/
-/* Landscape*/
-/*@media screen and (orientation:landscape)*/
-/*{*/
-/*#topImage*/
-/*{*/
-/*float: left;*/
-/*}*/
-/*} */
+
 #container{
     width:320px;
     padding:0 auto;
     margin:0 auto ;
-    background-color:#FFFFFF;
     overflow:hidden;
     position:relative;
     display:block;
+    border:none;
     max-width: 96%;
 }
 #header img{
@@ -73,11 +49,7 @@ video {
     width:100px;
     height:100px;
 }
-/*#header .loggan{*/
-/*    display:block;*/
-/*    width:100px;*/
-/*    height:100px;*/
-/*}*/
+
 
 #header{
     background-image:url(../Pics/Logotry3.png);
@@ -100,17 +72,14 @@ video {
 #context{
     clear:both;
     padding-bottom: 3em;
-    background-color:#FFFFFF;
+    border:none;
     width:300px;
     margin: 0 auto;
     padding:0;
     float:center;
     max-width: 96%;
 }
-/*.presfoto {*/
-/*    width:100px;*/
-/*    height:300px;*/
-/*}*/
+
 #WWpto {
     width:100px;
     height:350px;
@@ -118,20 +87,6 @@ video {
 #context ul ol li{
     list-style:none;
     display:block;
-}
-#footer 
-{
-    clear: both;
-    position: relative;
-    text-align: center;
-    font-weight: normal;
-    background-color:#FFFFFF;
-    width:300px;
-    z-index: 10;
-    height: 3em;
-    margin-top: -3em;
-    margin:0 auto;
-    max-width: 96%;
 }
 
 #navigation {
@@ -146,53 +101,20 @@ video {
     
 }
 
-h1 {
-    font:Arial;
-    font-size:24px;
-    color:#000000;
-    
-}
-h2 {
-    font:Arial;
-    color:#000000;
-    font-size:20px;
-    line-height:1.5em;
-}
-h3 {
-    font:Arial;
-    font-size:18px;
-    color:#000000;
-    line-height:1.5em;
-}
-p{
-    font:Arial;
-    font-size:14px;
-    color:#000000;
-    line-height:1.5em;
-}
 article{
     width:280px;
-    box-shadow: 10px 10px 5px #888888;
-    background-color:#FFFFFF;
-    padding:5px;
-    margin:5px;
     max-width: 96%;
     line-height:1.5em;
 }
-.active{
-    background:url("../Pics/Logotry3.png");
-    background-color:#1b1b1b;
-    background-repeat:no-repeat;
-    background-position:center; 
-}
+
 #navigation ul li a{
     display:inline;
     border-style:solid;
     border-width:1px;
     border-color:#000000;
     list-style-type:none;
-    padding-left:2px;
-    text-align:right;
+    padding-left:1px;
+    text-align:center;
     max-width: 96%;
     
 }
@@ -200,44 +122,9 @@ article{
     display:inline;
     font-size:10px;
     font-style:italic;
-    color:#000000;
-    background-color:#FFFFFF;
-    width:300px;
     text-align:right;
     padding:2px;
     padding-right:20px;
-    text-decoration:none;
+
     max-width: 96%;
 }
-/*a:hover{*/
-/*    background-color:#88998D;*/
-/*}*/
-
-#meny a
-{
-    position:relative;
-}
-#meny a
-{
-    width:70px;
-    height:24px;
-    display:block;
-    background-image:url(pics/sprite.png);
-    background-repeat:no-repeat;
-}
-#meny li 
-{
-    
-    float:left;
-    list-style-type:none;
-    margin-right:1px;
-}
-
-#homea a{background-position: 0 -48px}
-#homea a:hover {background-position: 0 0}
-#laboa a{background-position: 0 -144px}
-#laboa a:hover {background-position: 0 -96px}
-#presenta a{background-position: 0 -240px}
-#presenta a:hover {background-position: 0 -192px}
-#kontakta a{background-position: 0 -336px}
-#kontakta a:hover {background-position: 0 -288px}
