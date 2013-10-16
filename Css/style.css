@@ -2,6 +2,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -121,25 +123,25 @@ q:before, q:after {
     height:350px;
 }
 h1 {
-    font:Arial;
+    font-family:Arial;
     font-size:24px;
     color:#000000;
     
 }
 h2 {
-    font:Arial;
+    font-family:Arial;
     color:#000000;
     font-size:20px;
     line-height:1.5em;
 }
 h3 {
-    font:Arial;
+    font-family:Arial;
     font-size:18px;
     color:#000000;
     line-height:1.5em;
 }
 p{
-    font:Arial;
+    font-family:Arial;
     font-size:14px;
     color:#000000;
     line-height:1.5em;
@@ -253,7 +255,7 @@ article{
 #galleriet a:after 
 {
 	color:navy;
-	font-family: 'Parisienne', cursive;
+	font-family: 'Indie Flower', cursive;
     font-size:20px;
     font-weight:600;
 	content: attr(title);
