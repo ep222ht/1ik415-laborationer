@@ -1,4 +1,5 @@
-#header, #navigation, #footer, .noprint {
+#header, #navigation, #footer, .noprint 
+{
     display: none;
     }
 

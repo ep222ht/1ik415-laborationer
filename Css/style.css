@@ -178,9 +178,9 @@ article{
     padding:4px;
     text-decoration:none;
 }
-/*a:hover{*/
-/*    background-color:#88998D;*/
-/*}*/
+#navigation a:hover{
+    background-color:gray;
+}
 
 
 
@@ -212,3 +212,5 @@ article{
 #presenta a:hover {background-position: 0 -192px}
 #kontakta a{background-position: 0 -336px}
 #kontakta a:hover {background-position: 0 -288px}
+#galleria a{background-position: 0 -240px}
+#galleria a:hover {background-position: 0 -192px}
