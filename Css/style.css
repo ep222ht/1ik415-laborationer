@@ -6,7 +6,7 @@
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -14,7 +14,7 @@ label,
 caption,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu, output, ruby, section, summary,
 time, mark, audio{
 	margin: 0;
 	padding: 0;
@@ -23,6 +23,9 @@ time, mark, audio{
 	font: inherit;
 	vertical-align: baseline;
 	}
+	nav{
+    display:block;
+}
 	html, body, #container { height: 100%; }
     body > #container { height: auto; min-height: 100%; }
 
@@ -113,6 +116,7 @@ q:before, q:after {
     font-weight:bold;
     }
 #WWpto {
+    display:block;
     width:100px;
     height:350px;
 }
@@ -214,3 +218,96 @@ article{
 #kontakta a:hover {background-position: 0 -288px}
 #galleria a{background-position: 0 -240px}
 #galleria a:hover {background-position: 0 -192px}
+
+
+#galleriet a 
+{
+    float: left;
+    background:white;
+    display:inline;
+	z-index:0;
+    position:relative;
+    margin: 20px 20px 30px;
+	padding: 10px 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	transition: all 1s linear;
+}
+#galleriet a:hover 
+{
+    -webkit-transform: scale(2); 
+	-moz-transform: scale(2);
+    transform: scale(2);
+	z-index:10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
+#galleriet a:after 
+{
+	color:navy;
+	font-family: 'Parisienne', cursive;
+    font-size:20px;
+    font-weight:600;
+	content: attr(title);
+	position: relative;
+	top:15px;
+}
+
+#galleriet img 
+{
+    display:block;
+    height:100px;
+    width:inherit;
+}
+#galleriet a:nth-child(1n)
+{
+	-webkit-transform: rotate(2deg);  
+	-moz-transform: rotate(2deg); 
+	transform: rotate(2deg); 
+}
+
+#galleriet a:nth-child(2n)
+{
+	-webkit-transform: rotate(7deg);  
+	-moz-transform: rotate(7deg); 
+	transform: rotate(7deg); 
+}
+#galleriet a:nth-child(3n) { 
+	-webkit-transform: rotate(-13deg);  
+	-moz-transform: rotate(-13deg); 
+	transform: rotate(-13deg); 
+}
+
+#galleriet a:nth-child(4n) { 
+	-webkit-transform: rotate(-8deg);  
+	-moz-transform: rotate(-8deg); 
+	transform: rotate(-8deg); 
+}
+
+#galleriet a:nth-child(5n) { 
+	-webkit-transform: rotate(-2deg);  
+	-moz-transform: rotate(-2deg); 
+	transform: rotate(-2deg); 
+}
+
+#galleriet a:nth-child(6n) { 
+	-webkit-transform: rotate(12deg);  
+	-moz-transform: rotate(12deg); 
+	transform: rotate(12deg); 
+}
+#galleriet a:nth-child(7n) { 
+	-webkit-transform: rotate(-12deg);  
+	-moz-transform: rotate(-12deg); 
+	transform: rotate(-12deg); 
+}
+#galleriet a:nth-child(8n) { 
+	-webkit-transform: rotate(14deg);  
+	-moz-transform: rotate(14deg); 
+	transform: rotate(14deg); 
+}
